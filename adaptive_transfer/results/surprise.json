@@ -1,0 +1,35 @@
+{
+ "n_companies": 160,
+ "n_campaigns": 34,
+ "HS3_defender_surprise_bits_total": 40.935343536395436,
+ "HS3_mean_static_belief": 0.05055147058823529,
+ "HS3_mean_adaptive_reality": 0.36047794117647064,
+ "k=3": {
+  "HS1_static_rule_adaptive_breach": 0.3641544117647059,
+  "HS1_adaptive_rule_adaptive_breach": 0.5450367647058824,
+  "HS1_regret_static_minus_adaptive": -0.18088235294117644,
+  "HS1_regret_ci": [
+   -0.22941176470588234,
+   -0.13235294117647062
+  ],
+  "HS2_mean_jaccard_static_vs_adaptive_portfolio": 0.278125,
+  "HS3_spearman_surprise_vs_regret": 0.3521117704277586,
+  "HS4_surprise_aware_adaptive_breach": 0.607904411764706,
+  "HS4_saware_minus_static_rule": 0.24375000000000008,
+  "HS4_closes_regret_frac": 1.3475609830596873
+ },
+ "k=5": {
+  "HS1_static_rule_adaptive_breach": 0.3082720588235294,
+  "HS1_adaptive_rule_adaptive_breach": 0.4306985294117648,
+  "HS1_regret_static_minus_adaptive": -0.1224264705882353,
+  "HS1_regret_ci": [
+   -0.17647518382352945,
+   -0.0669071691176471
+  ],
+  "HS2_mean_jaccard_static_vs_adaptive_portfolio": 0.543154761904762,
+  "HS3_spearman_surprise_vs_regret": 0.22731793472457448,
+  "HS4_surprise_aware_adaptive_breach": 0.25533088235294116,
+  "HS4_saware_minus_static_rule": -0.05294117647058827,
+  "HS4_closes_regret_frac": -0.43243243596461334
+ }
+}

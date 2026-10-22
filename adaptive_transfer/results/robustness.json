@@ -1,0 +1,78 @@
+{
+ "n_campaigns": 34,
+ "sweep": {
+  "cover=1.0,dens=mid": {
+   "H1_static": 0.075,
+   "H1_adaptive": 0.41,
+   "H1_gap": 0.335,
+   "HM1_static_rule": 0.409,
+   "HM1_greedy": 0.513,
+   "HM1_chokepoint": 0.0,
+   "ordering_ok": true
+  },
+  "cover=1.0,dens=low": {
+   "H1_static": 0.201,
+   "H1_adaptive": 0.573,
+   "H1_gap": 0.371,
+   "HM1_static_rule": 0.343,
+   "HM1_greedy": 0.377,
+   "HM1_chokepoint": 0.0,
+   "ordering_ok": true
+  },
+  "cover=0.6,dens=mid": {
+   "H1_static": 0.203,
+   "H1_adaptive": 0.615,
+   "H1_gap": 0.412,
+   "HM1_static_rule": 0.565,
+   "HM1_greedy": 0.706,
+   "HM1_chokepoint": 0.282,
+   "ordering_ok": true
+  },
+  "cover=0.6,dens=low": {
+   "H1_static": 0.318,
+   "H1_adaptive": 0.688,
+   "H1_gap": 0.371,
+   "HM1_static_rule": 0.459,
+   "HM1_greedy": 0.706,
+   "HM1_chokepoint": 0.224,
+   "ordering_ok": true
+  },
+  "cover=0.3,dens=mid": {
+   "H1_static": 0.367,
+   "H1_adaptive": 0.706,
+   "H1_gap": 0.339,
+   "HM1_static_rule": 0.706,
+   "HM1_greedy": 0.706,
+   "HM1_chokepoint": 0.706,
+   "ordering_ok": true
+  },
+  "cover=0.3,dens=low": {
+   "H1_static": 0.448,
+   "H1_adaptive": 0.706,
+   "H1_gap": 0.258,
+   "HM1_static_rule": 0.706,
+   "HM1_greedy": 0.706,
+   "HM1_chokepoint": 0.706,
+   "ordering_ok": true
+  }
+ },
+ "LOCO_H1_gap": {
+  "mean": 0.315,
+  "min": 0.306,
+  "max": 0.325,
+  "std": 0.006
+ },
+ "pool_ablation": {
+  "corpus_pool": {
+   "static": 0.062,
+   "adaptive": 0.378,
+   "gap": 0.315
+  },
+  "full_attack_pool": {
+   "static": 0.062,
+   "adaptive": 0.624,
+   "gap": 0.561
+  },
+  "note": "gap positive (adaptive>static) under both pool definitions => direction robust"
+ }
+}

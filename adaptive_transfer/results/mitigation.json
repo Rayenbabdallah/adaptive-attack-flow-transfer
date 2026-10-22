@@ -1,0 +1,40 @@
+{
+ "n_campaigns": 34,
+ "frac_with_any_chokepoint": 0.9705882352941176,
+ "frac_coverable_in_principle": 0.9705882352941176,
+ "mean_smallest_chokepoint_pool": 6.666666666666667,
+ "k=3": {
+  "breach_static_rule": 0.3551470588235295,
+  "breach_greedy_adaptive": 0.5610294117647059,
+  "breach_chokepoint_aware": 0.3198529411764706,
+  "HM1_choke_vs_static": 0.035294117647058865,
+  "HM1_ci_vs_static": [
+   0.011764705882352943,
+   0.06470588235294118
+  ],
+  "HM1_choke_vs_greedy": 0.24117647058823527,
+  "HM1_ci_vs_greedy": [
+   0.18235294117647058,
+   0.30588235294117644
+  ],
+  "HM3_residual_success_after_choke": 0.3198529411764706,
+  "HM3_irreducible_campaigns_frac": 0.3235294117647059
+ },
+ "k=5": {
+  "breach_static_rule": 0.3080882352941176,
+  "breach_greedy_adaptive": 0.4852941176470589,
+  "breach_chokepoint_aware": 0.0,
+  "HM1_choke_vs_static": 0.3080882352941176,
+  "HM1_ci_vs_static": [
+   0.26176470588235295,
+   0.3546629901960784
+  ],
+  "HM1_choke_vs_greedy": 0.4852941176470589,
+  "HM1_ci_vs_greedy": [
+   0.4333333333333334,
+   0.5340686274509804
+  ],
+  "HM3_residual_success_after_choke": 0.0,
+  "HM3_irreducible_campaigns_frac": 0.0
+ }
+}

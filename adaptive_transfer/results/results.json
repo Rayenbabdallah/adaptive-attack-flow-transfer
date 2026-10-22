@@ -1,0 +1,53 @@
+{
+ "n_companies": 160,
+ "n_campaigns": 34,
+ "H1_static_success_rate": 0.0505514705882353,
+ "H1_adaptive_success_rate": 0.3604779411764706,
+ "H1_gap_adaptive_minus_static": 0.3099264705882353,
+ "H1_gap_ci": [
+  0.2657996323529412,
+  0.3544163602941177
+ ],
+ "H2_distinct_adaptive_success_sets": 7,
+ "H2_mean_per_campaign_variance_across_companies": 0.17442210477941159,
+ "H3_null_rate": 0.9705882352941175,
+ "H3_null_minus_adaptive": 0.610110294117647,
+ "H4_real_gap": 0.3099264705882353,
+ "H4_perm_mean_gap": 0.2920183823529412,
+ "H4_real_percentile_vs_perm": 0.815,
+ "H5_keystone_distribution_top": [
+  [
+   "Vulnerability Scanning",
+   10
+  ],
+  [
+   "Network Intrusion Prevention",
+   8
+  ],
+  [
+   "User Account Management",
+   8
+  ],
+  [
+   "Limit Software Installation",
+   5
+  ],
+  [
+   "Application Developer Guidance",
+   4
+  ],
+  [
+   "Filter Network Traffic",
+   4
+  ],
+  [
+   "Network Segmentation",
+   4
+  ],
+  [
+   "Remote Data Storage",
+   3
+  ]
+ ],
+ "H5_distinct_keystones": 19
+}

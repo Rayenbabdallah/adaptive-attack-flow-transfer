@@ -1,0 +1,51 @@
+{
+ "I_decomposition": {
+  "n_campaigns": 34,
+  "n_structurally_reachable_no_controls": 24,
+  "frac_structurally_unreachable": 0.294,
+  "overall_static_success": 0.051,
+  "overall_adaptive_success": 0.36,
+  "conditional_static_success_given_reachable": 0.072,
+  "conditional_adaptive_success_given_reachable": 0.511
+ },
+ "J_paired_full_coverage": {
+  "exhaustive_minus_greedy": {
+   "mean_paired_diff": -0.248,
+   "ci95": [
+    -0.504,
+    0.0
+   ],
+   "frac_folds_negative": 0.8,
+   "n": 20
+  },
+  "chokepoint_minus_greedy": {
+   "mean_paired_diff": -0.043,
+   "ci95": [
+    -0.429,
+    0.15
+   ],
+   "frac_folds_negative": 0.15,
+   "n": 20
+  }
+ },
+ "J_paired_three_quarter_coverage": {
+  "exhaustive_minus_greedy": {
+   "mean_paired_diff": -0.129,
+   "ci95": [
+    -0.571,
+    0.143
+   ],
+   "frac_folds_negative": 0.3,
+   "n": 20
+  },
+  "chokepoint_minus_greedy": {
+   "mean_paired_diff": 0.175,
+   "ci95": [
+    0.0,
+    0.429
+   ],
+   "frac_folds_negative": 0.0,
+   "n": 20
+  }
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "n_companies": 160,
+ "n_campaigns": 34,
+ "A_substitution_ablation": {
+  "corpus": {
+   "adaptive_success": 0.3604779411764706,
+   "gap_vs_static": 0.3099264705882353
+  },
+  "platform": {
+   "adaptive_success": 0.3556985294117647,
+   "gap_vs_static": 0.30514705882352944
+  },
+  "cooccur": {
+   "adaptive_success": 0.26323529411764707,
+   "gap_vs_static": 0.2126838235294118
+  },
+  "static_success": 0.050551470588235295
+ },
+ "B_campaign_bootstrap_gap": {
+  "mean": 0.3099264705882353,
+  "ci_campaign_resample": [
+   0.2365762867647059,
+   0.3761075367647059
+  ]
+ },
+ "C_optimizer_k3": {
+  "greedy_adaptive_breach": 0.3235294117647059,
+  "greedy_static_rule_adaptive_breach": 0.3235294117647059,
+  "exhaustive_optimal_adaptive_breach": 0.0,
+  "exhaustive_beats_greedy_by": 0.3235294117647059,
+  "no_controls_adaptive_breach": 0.7058823529411765,
+  "n_subsets_evaluated": 13244
+ }
+}

@@ -1,0 +1,399 @@
+{
+ "k": 3,
+ "folds": 5,
+ "n_campaigns": 34,
+ "no_controls_full_corpus_pool": 0.7058823529411765,
+ "full_coverage": {
+  "mean": {
+   "no_controls": 0.7047619047619047,
+   "greedy": 0.32380952380952377,
+   "chokepoint": 0.2333333333333333,
+   "exhaustive": 0.11904761904761904
+  },
+  "sd_across_folds": {
+   "no_controls": 0.12918723777381463,
+   "greedy": 0.13932132226978852,
+   "chokepoint": 0.06459361888690732,
+   "exhaustive": 0.10858813572372743
+  },
+  "per_fold": {
+   "no_controls": [
+    0.857,
+    0.571,
+    0.571,
+    0.857,
+    0.667
+   ],
+   "greedy": [
+    0.571,
+    0.286,
+    0.143,
+    0.286,
+    0.333
+   ],
+   "chokepoint": [
+    0.286,
+    0.286,
+    0.143,
+    0.286,
+    0.167
+   ],
+   "exhaustive": [
+    0.286,
+    0.0,
+    0.0,
+    0.143,
+    0.167
+   ]
+  },
+  "selected_controls_per_fold": {
+   "greedy": [
+    [
+     "Network Intrusion Prevention",
+     "Restrict Web-Based Content",
+     "Vulnerability Scanning"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Restrict Web-Based Content",
+     "Vulnerability Scanning"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Restrict Web-Based Content",
+     "Vulnerability Scanning"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Restrict Web-Based Content",
+     "Vulnerability Scanning"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Restrict Web-Based Content",
+     "Vulnerability Scanning"
+    ]
+   ],
+   "chokepoint": [
+    [
+     "Network Intrusion Prevention",
+     "User Account Management",
+     "Limit Access to Resource Over Network"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "User Account Management",
+     "Restrict Web-Based Content"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "User Account Management",
+     "Restrict Web-Based Content"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "User Account Management",
+     "Restrict Web-Based Content"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "User Account Management",
+     "Application Isolation and Sandboxing"
+    ]
+   ],
+   "exhaustive": [
+    [
+     "Network Intrusion Prevention",
+     "Limit Access to Resource Over Network",
+     "User Account Management"
+    ],
+    [
+     "Vulnerability Scanning",
+     "Restrict Web-Based Content",
+     "User Account Management"
+    ],
+    [
+     "Vulnerability Scanning",
+     "Restrict Web-Based Content",
+     "User Account Management"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Multi-factor Authentication",
+     "Update Software"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "User Account Management",
+     "Application Isolation and Sandboxing"
+    ]
+   ]
+  }
+ },
+ "three_quarter_coverage": {
+  "mean": {
+   "no_controls": 0.7047619047619047,
+   "greedy": 0.5047619047619047,
+   "chokepoint": 0.6761904761904761,
+   "exhaustive": 0.4619047619047619
+  },
+  "sd_across_folds": {
+   "no_controls": 0.12918723777381463,
+   "greedy": 0.18467351837776494,
+   "chokepoint": 0.16605329308726374,
+   "exhaustive": 0.2863485024451982
+  },
+  "per_fold": {
+   "no_controls": [
+    0.857,
+    0.571,
+    0.571,
+    0.857,
+    0.667
+   ],
+   "greedy": [
+    0.571,
+    0.286,
+    0.286,
+    0.714,
+    0.667
+   ],
+   "chokepoint": [
+    0.857,
+    0.429,
+    0.571,
+    0.857,
+    0.667
+   ],
+   "exhaustive": [
+    0.857,
+    0.143,
+    0.429,
+    0.714,
+    0.167
+   ]
+  },
+  "selected_controls_per_fold": {
+   "greedy": [
+    [
+     "Network Intrusion Prevention",
+     "Data Loss Prevention",
+     "Vulnerability Scanning"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Filter Network Traffic",
+     "Data Loss Prevention"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Data Loss Prevention",
+     "Vulnerability Scanning"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Data Loss Prevention",
+     "Vulnerability Scanning"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Data Loss Prevention",
+     "Vulnerability Scanning"
+    ]
+   ],
+   "chokepoint": [
+    [
+     "Network Intrusion Prevention",
+     "Filter Network Traffic",
+     "User Account Management"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Filter Network Traffic",
+     "User Account Management"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Filter Network Traffic",
+     "User Account Management"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Filter Network Traffic",
+     "Application Developer Guidance"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "User Account Management",
+     "Application Isolation and Sandboxing"
+    ]
+   ],
+   "exhaustive": [
+    [
+     "Network Intrusion Prevention",
+     "Filter Network Traffic",
+     "Audit"
+    ],
+    [
+     "Limit Access to Resource Over Network",
+     "Restrict Web-Based Content",
+     "User Account Management"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Filter Network Traffic",
+     "Audit"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Vulnerability Scanning",
+     "Data Loss Prevention"
+    ],
+    [
+     "Restrict Web-Based Content",
+     "Network Segmentation",
+     "User Account Management"
+    ]
+   ]
+  }
+ },
+ "half_coverage": {
+  "mean": {
+   "no_controls": 0.7047619047619047,
+   "greedy": 0.7047619047619047,
+   "chokepoint": 0.7047619047619047,
+   "exhaustive": 0.7047619047619047
+  },
+  "sd_across_folds": {
+   "no_controls": 0.12918723777381463,
+   "greedy": 0.12918723777381463,
+   "chokepoint": 0.12918723777381463,
+   "exhaustive": 0.12918723777381463
+  },
+  "per_fold": {
+   "no_controls": [
+    0.857,
+    0.571,
+    0.571,
+    0.857,
+    0.667
+   ],
+   "greedy": [
+    0.857,
+    0.571,
+    0.571,
+    0.857,
+    0.667
+   ],
+   "chokepoint": [
+    0.857,
+    0.571,
+    0.571,
+    0.857,
+    0.667
+   ],
+   "exhaustive": [
+    0.857,
+    0.571,
+    0.571,
+    0.857,
+    0.667
+   ]
+  },
+  "selected_controls_per_fold": {
+   "greedy": [
+    [
+     "Network Intrusion Prevention",
+     "Vulnerability Scanning",
+     "Limit Access to Resource Over Network"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Vulnerability Scanning",
+     "Limit Access to Resource Over Network"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Vulnerability Scanning",
+     "Limit Access to Resource Over Network"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Vulnerability Scanning",
+     "Limit Access to Resource Over Network"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Vulnerability Scanning",
+     "Limit Access to Resource Over Network"
+    ]
+   ],
+   "chokepoint": [
+    [
+     "Network Intrusion Prevention",
+     "Application Developer Guidance",
+     "Vulnerability Scanning"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Execution Prevention",
+     "Application Developer Guidance"
+    ],
+    [
+     "Restrict Web-Based Content",
+     "User Account Management",
+     "Exploit Protection"
+    ],
+    [
+     "User Account Management",
+     "Restrict Web-Based Content",
+     "Exploit Protection"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Execution Prevention",
+     "Exploit Protection"
+    ]
+   ],
+   "exhaustive": [
+    [
+     "Network Intrusion Prevention",
+     "Vulnerability Scanning",
+     "Limit Access to Resource Over Network"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Vulnerability Scanning",
+     "Limit Access to Resource Over Network"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Vulnerability Scanning",
+     "Limit Access to Resource Over Network"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Vulnerability Scanning",
+     "Limit Access to Resource Over Network"
+    ],
+    [
+     "Network Intrusion Prevention",
+     "Vulnerability Scanning",
+     "Limit Access to Resource Over Network"
+    ]
+   ]
+  }
+ },
+ "cut_prevalence": {
+  "campaigns_with_required_tactic_cut": 33,
+  "campaigns_with_coverable_cut": 33,
+  "n": 34
+ },
+ "substitution_audit_quant": {
+  "n_unique_cooccurrence_substitutions": 1140,
+  "n_sampled": 40,
+  "criterion": "shares >=1 ATT&CK platform (necessary-condition proxy)",
+  "n_platform_compatible": 39,
+  "frac_platform_compatible": 0.975
+ }
+}
